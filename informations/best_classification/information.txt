@@ -1,5 +1,6 @@
 best number classification = 5
-best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+inertia=392933.1154556643
+best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 max accuracy =0.9055
 best labeling = ['B', 'B', 'A', 'B', 'A']
 centers =

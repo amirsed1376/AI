@@ -1,5 +1,5 @@
 number classification = 1
-best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 max accuracy =0.6275
 best labeling = ['B']
 centers =
@@ -133,6 +133,132 @@ confusion matrix =[  0 745]
 accuracy=0.6275
 ###################################
 if k_knn = 10
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 11
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 12
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 13
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 14
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 15
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 16
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 17
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 18
+max accuracy =0.6275
+best labeling = ['B']
+___________________
+if labeling = ['A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 19
 max accuracy =0.6275
 best labeling = ['B']
 ___________________

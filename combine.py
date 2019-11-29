@@ -1,4 +1,5 @@
 import pandas as pd
+from numpy import poly1d
 from sklearn.cluster import KMeans
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
@@ -105,7 +106,7 @@ def get_kmeans_information_dictionary(k_kmeans, train_labels, best_k_knn, max_ac
     return kmeans_information_dictionary
 
 
-def information_best_classification_file(directory_name, kmeans_dict, x_train):
+def information_best_classification_file(directory_name, kmeans_dict, x_train ,inetia_list):
     """write information of best classifcation in to a file """
     file_name = directory_name + "information.txt"
     cvs_file = directory_name + "train_classification.csv"
@@ -113,6 +114,7 @@ def information_best_classification_file(directory_name, kmeans_dict, x_train):
     best_k_knn = kmeans_dict["best_k_knn"]
     best_labeling=kmeans_dict["knn_dict_list"][best_k_knn[0]]["best_labeling"]
     file.write("best number classification = " + str(kmeans_dict["k_kmeans"]) + "\n")
+    file.write("inertia="+str(inetia_list[kmeans_dict["k_kmeans"]])+"\n")
     # file.write("amount of error = " + "\n")  # TODO amount of error
     file.write("best_k_knns = " + str(best_k_knn) + "\n")
     file.write("max accuracy ="+ str(kmeans_dict["max_accuracy_knn"]) + "\n")
@@ -154,12 +156,35 @@ def make_csv_test(kmeans_dict , directory_file , x_test , x_train , y_test):
     cvs_file = directory_file +"test_labeling.csv"
     df =pd.DataFrame(x_test)
     df["y"]=get_test_labels_true(y_test=y_test)
-
+    train_predict_list = []
     for knn_dict in (kmeans_dict["knn_dict_list"]):
         test_lable_predict=get_test_lable_predict(k_knn=knn_dict["k_knn"] ,dataset_train=x_train ,train_labels=kmeans_dict["train_labels"] ,x_test=x_test)
         labeling= became_classLabel_to_label(label_classification=test_lable_predict , label_list=knn_dict["best_labeling"])
         df["k"+str(knn_dict["k_knn"])]=list(labeling)
     df.to_csv(cvs_file)
+
+
+def predict_train_file(x_train,train_labels ,label_list , file ):
+    file2 = open("informations/best_classification/train_confusion_matrix", "w+")
+    data=pd.read_csv(file)
+    x= data.iloc[:, :].values
+    df = pd.DataFrame(x)
+
+    for k_knn in range(1,20):
+        # train_labels=train_labels[0:3000]
+        predict_label = get_test_lable_predict(k_knn=k_knn, dataset_train=x_train, train_labels=train_labels,x_test=x_train)
+        y_train = became_classLabel_to_label(label_classification=predict_label, label_list=label_list)
+        y_train = get_test_labels_true(y_test=y_train)
+        accuracy=accuracy_score(y_true=became_classLabel_to_label(label_classification=train_labels ,label_list=label_list) , y_pred=y_train)
+        matrix=confusion_matrix(y_true=became_classLabel_to_label(label_classification=train_labels ,label_list=label_list) , y_pred=y_train)
+        df["k"+str(k_knn)]=y_train
+        df.to_csv(file)
+        file2.write("\n___________________\n")
+        file2.write("if k_knn ="+str(k_knn)+"\n")
+        file2.write("accuracy=\n"+str(accuracy))
+        file2.write("\nmatrix=\n"+str(matrix))
+
+
 
 
 x_test, y_test = getInformationTest("test.csv")
@@ -180,7 +205,7 @@ for k_kmeans in range(1, 10):
     max_accuracy_knn = 0
     best_k_knn = [0]
 
-    for k_knn in range(1, 11):
+    for k_knn in range(1, 20):
         print("k_KMeans = " , k_kmeans , "    k_KNN = " , k_knn)
         labels_dict_list = []
 
@@ -229,14 +254,19 @@ for k_kmeans in range(1, 10):
                                                                       knn_dict_list=knn_dict_list)
     k_means_dict_list.append(kmeans_information_dictionary.copy())
 
+
 plt.plot(range(1, len(inetia_list) + 1), inetia_list)
 plt.savefig("plot.png")
 best_kMeans = best_k_means(list_inertia=inetia_list)
 print("best k for k_means is ", best_kMeans)
 
 information_best_classification_file(directory_name="informations/best_classification/",
-                                     kmeans_dict=k_means_dict_list[best_kMeans-1], x_train=x_train)
+                                     kmeans_dict=k_means_dict_list[best_kMeans-1], x_train=x_train , inetia_list=inetia_list)
+
+
 
 make_files_for_information_KMeans(kmeans_list=k_means_dict_list , directory_file="informations/")
 
 make_csv_test(kmeans_dict=k_means_dict_list[best_kMeans-1] ,directory_file="informations/best_classification/" ,x_test=x_test ,x_train=x_train , y_test=y_test)
+best_label = k_means_dict_list[best_kMeans-1]["knn_dict_list"][best_kMeans]["best_labeling"]
+predict_train_file(x_train=x_train , train_labels=k_means_dict_list[best_kMeans-1]["train_labels"] , label_list=best_label ,file="informations/best_classification/train_classification.csv")

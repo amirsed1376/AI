@@ -1,5 +1,5 @@
 number classification = 6
-best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+best_k_knns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 max accuracy =0.9055
 best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
 centers =
@@ -3250,6 +3250,2922 @@ if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
 confusion matrix =[  9 736]
                   [ 196 1059]
 accuracy=0.534
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 11
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[735  10]
+                  [1049  206]
+accuracy=0.4705
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[739   6]
+                  [1100  155]
+accuracy=0.447
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[703  42]
+                  [678 577]
+accuracy=0.64
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[707  38]
+                  [729 526]
+accuracy=0.6165
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[392 353]
+                  [989 266]
+accuracy=0.329
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[396 349]
+                  [1040  215]
+accuracy=0.3055
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[360 385]
+                  [618 637]
+accuracy=0.4985
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[364 381]
+                  [669 586]
+accuracy=0.475
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[710  35]
+                  [642 613]
+accuracy=0.6615
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[714  31]
+                  [693 562]
+accuracy=0.638
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[678  67]
+                  [271 984]
+accuracy=0.831
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[682  63]
+                  [322 933]
+accuracy=0.8075
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[367 378]
+                  [582 673]
+accuracy=0.52
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[371 374]
+                  [633 622]
+accuracy=0.4965
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[335 410]
+                  [ 211 1044]
+accuracy=0.6895
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[339 406]
+                  [262 993]
+accuracy=0.666
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[406 339]
+                  [993 262]
+accuracy=0.334
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[410 335]
+                  [1044  211]
+accuracy=0.3105
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[374 371]
+                  [622 633]
+accuracy=0.5035
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[378 367]
+                  [673 582]
+accuracy=0.48
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 63 682]
+                  [933 322]
+accuracy=0.1925
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 67 678]
+                  [984 271]
+accuracy=0.169
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 31 714]
+                  [562 693]
+accuracy=0.362
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 35 710]
+                  [613 642]
+accuracy=0.3385
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[381 364]
+                  [586 669]
+accuracy=0.525
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[385 360]
+                  [637 618]
+accuracy=0.5015
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[349 396]
+                  [ 215 1040]
+accuracy=0.6945
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[353 392]
+                  [266 989]
+accuracy=0.671
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 38 707]
+                  [526 729]
+accuracy=0.3835
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 42 703]
+                  [577 678]
+accuracy=0.36
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  6 739]
+                  [ 155 1100]
+accuracy=0.553
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[ 10 735]
+                  [ 206 1049]
+accuracy=0.5295
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 12
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1058  197]
+accuracy=0.4665
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1091  164]
+accuracy=0.451
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [687 568]
+accuracy=0.636
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [720 535]
+accuracy=0.6205
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [998 257]
+accuracy=0.325
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1031  224]
+accuracy=0.3095
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [627 628]
+accuracy=0.4945
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [660 595]
+accuracy=0.479
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [651 604]
+accuracy=0.6575
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [684 571]
+accuracy=0.642
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [280 975]
+accuracy=0.827
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [313 942]
+accuracy=0.8115
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [591 664]
+accuracy=0.516
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [624 631]
+accuracy=0.5005
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 220 1035]
+accuracy=0.6855
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [ 253 1002]
+accuracy=0.67
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [1002  253]
+accuracy=0.33
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1035  220]
+accuracy=0.3145
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [631 624]
+accuracy=0.4995
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [664 591]
+accuracy=0.484
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [942 313]
+accuracy=0.1885
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [975 280]
+accuracy=0.173
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [571 684]
+accuracy=0.358
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [604 651]
+accuracy=0.3425
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [595 660]
+accuracy=0.521
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [628 627]
+accuracy=0.5055
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 224 1031]
+accuracy=0.6905
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [257 998]
+accuracy=0.675
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [535 720]
+accuracy=0.3795
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [568 687]
+accuracy=0.364
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 164 1091]
+accuracy=0.549
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 197 1058]
+accuracy=0.5335
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 13
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1044  211]
+accuracy=0.4735
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1105  150]
+accuracy=0.444
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [673 582]
+accuracy=0.643
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [734 521]
+accuracy=0.6135
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [984 271]
+accuracy=0.332
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1045  210]
+accuracy=0.3025
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [613 642]
+accuracy=0.5015
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [674 581]
+accuracy=0.472
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [637 618]
+accuracy=0.6645
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [698 557]
+accuracy=0.635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [266 989]
+accuracy=0.834
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [327 928]
+accuracy=0.8045
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [577 678]
+accuracy=0.523
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [638 617]
+accuracy=0.4935
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 206 1049]
+accuracy=0.6925
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [267 988]
+accuracy=0.663
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [988 267]
+accuracy=0.337
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1049  206]
+accuracy=0.3075
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [617 638]
+accuracy=0.5065
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [678 577]
+accuracy=0.477
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [928 327]
+accuracy=0.1955
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [989 266]
+accuracy=0.166
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [557 698]
+accuracy=0.365
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [618 637]
+accuracy=0.3355
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [581 674]
+accuracy=0.528
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [642 613]
+accuracy=0.4985
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 210 1045]
+accuracy=0.6975
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [271 984]
+accuracy=0.668
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [521 734]
+accuracy=0.3865
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [582 673]
+accuracy=0.357
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 150 1105]
+accuracy=0.556
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 211 1044]
+accuracy=0.5265
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 14
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1055  200]
+accuracy=0.468
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1094  161]
+accuracy=0.4495
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [684 571]
+accuracy=0.6375
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [723 532]
+accuracy=0.619
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [995 260]
+accuracy=0.3265
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1034  221]
+accuracy=0.308
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [624 631]
+accuracy=0.496
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [663 592]
+accuracy=0.4775
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [648 607]
+accuracy=0.659
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [687 568]
+accuracy=0.6405
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [277 978]
+accuracy=0.8285
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [316 939]
+accuracy=0.81
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [588 667]
+accuracy=0.5175
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [627 628]
+accuracy=0.499
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 217 1038]
+accuracy=0.687
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [256 999]
+accuracy=0.6685
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [999 256]
+accuracy=0.3315
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1038  217]
+accuracy=0.313
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [628 627]
+accuracy=0.501
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [667 588]
+accuracy=0.4825
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [939 316]
+accuracy=0.19
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [978 277]
+accuracy=0.1715
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [568 687]
+accuracy=0.3595
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [607 648]
+accuracy=0.341
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [592 663]
+accuracy=0.5225
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [631 624]
+accuracy=0.504
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 221 1034]
+accuracy=0.692
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [260 995]
+accuracy=0.6735
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [532 723]
+accuracy=0.381
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [571 684]
+accuracy=0.3625
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 161 1094]
+accuracy=0.5505
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 200 1055]
+accuracy=0.532
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 15
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1044  211]
+accuracy=0.4735
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1105  150]
+accuracy=0.444
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [673 582]
+accuracy=0.643
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [734 521]
+accuracy=0.6135
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [984 271]
+accuracy=0.332
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1045  210]
+accuracy=0.3025
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [613 642]
+accuracy=0.5015
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [674 581]
+accuracy=0.472
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [637 618]
+accuracy=0.6645
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [698 557]
+accuracy=0.635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [266 989]
+accuracy=0.834
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [327 928]
+accuracy=0.8045
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [577 678]
+accuracy=0.523
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [638 617]
+accuracy=0.4935
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 206 1049]
+accuracy=0.6925
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [267 988]
+accuracy=0.663
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [988 267]
+accuracy=0.337
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1049  206]
+accuracy=0.3075
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [617 638]
+accuracy=0.5065
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [678 577]
+accuracy=0.477
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [928 327]
+accuracy=0.1955
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [989 266]
+accuracy=0.166
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [557 698]
+accuracy=0.365
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [618 637]
+accuracy=0.3355
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [581 674]
+accuracy=0.528
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [642 613]
+accuracy=0.4985
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 210 1045]
+accuracy=0.6975
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [271 984]
+accuracy=0.668
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [521 734]
+accuracy=0.3865
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [582 673]
+accuracy=0.357
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 150 1105]
+accuracy=0.556
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 211 1044]
+accuracy=0.5265
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 16
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1053  202]
+accuracy=0.469
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1096  159]
+accuracy=0.4485
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [682 573]
+accuracy=0.6385
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [725 530]
+accuracy=0.618
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [993 262]
+accuracy=0.3275
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1036  219]
+accuracy=0.307
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [622 633]
+accuracy=0.497
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [665 590]
+accuracy=0.4765
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [646 609]
+accuracy=0.66
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [689 566]
+accuracy=0.6395
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [275 980]
+accuracy=0.8295
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [318 937]
+accuracy=0.809
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [586 669]
+accuracy=0.5185
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [629 626]
+accuracy=0.498
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 215 1040]
+accuracy=0.688
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [258 997]
+accuracy=0.6675
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [997 258]
+accuracy=0.3325
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1040  215]
+accuracy=0.312
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [626 629]
+accuracy=0.502
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [669 586]
+accuracy=0.4815
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [937 318]
+accuracy=0.191
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [980 275]
+accuracy=0.1705
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [566 689]
+accuracy=0.3605
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [609 646]
+accuracy=0.34
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [590 665]
+accuracy=0.5235
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [633 622]
+accuracy=0.503
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 219 1036]
+accuracy=0.693
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [262 993]
+accuracy=0.6725
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [530 725]
+accuracy=0.382
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [573 682]
+accuracy=0.3615
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 159 1096]
+accuracy=0.5515
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 202 1053]
+accuracy=0.531
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 17
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1045  210]
+accuracy=0.473
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1104  151]
+accuracy=0.4445
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [674 581]
+accuracy=0.6425
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [733 522]
+accuracy=0.614
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [985 270]
+accuracy=0.3315
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1044  211]
+accuracy=0.303
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [614 641]
+accuracy=0.501
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [673 582]
+accuracy=0.4725
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [638 617]
+accuracy=0.664
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [697 558]
+accuracy=0.6355
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [267 988]
+accuracy=0.8335
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [326 929]
+accuracy=0.805
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [578 677]
+accuracy=0.5225
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [637 618]
+accuracy=0.494
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 207 1048]
+accuracy=0.692
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [266 989]
+accuracy=0.6635
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [989 266]
+accuracy=0.3365
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1048  207]
+accuracy=0.308
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [618 637]
+accuracy=0.506
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [677 578]
+accuracy=0.4775
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [929 326]
+accuracy=0.195
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [988 267]
+accuracy=0.1665
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [558 697]
+accuracy=0.3645
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [617 638]
+accuracy=0.336
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [582 673]
+accuracy=0.5275
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [641 614]
+accuracy=0.499
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 211 1044]
+accuracy=0.697
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [270 985]
+accuracy=0.6685
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [522 733]
+accuracy=0.386
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [581 674]
+accuracy=0.3575
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 151 1104]
+accuracy=0.5555
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 210 1045]
+accuracy=0.527
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 18
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1053  202]
+accuracy=0.469
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1096  159]
+accuracy=0.4485
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [682 573]
+accuracy=0.6385
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [725 530]
+accuracy=0.618
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [993 262]
+accuracy=0.3275
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1036  219]
+accuracy=0.307
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [622 633]
+accuracy=0.497
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [665 590]
+accuracy=0.4765
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [646 609]
+accuracy=0.66
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [689 566]
+accuracy=0.6395
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [275 980]
+accuracy=0.8295
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [318 937]
+accuracy=0.809
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [586 669]
+accuracy=0.5185
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [629 626]
+accuracy=0.498
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 215 1040]
+accuracy=0.688
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [258 997]
+accuracy=0.6675
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [997 258]
+accuracy=0.3325
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1040  215]
+accuracy=0.312
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [626 629]
+accuracy=0.502
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [669 586]
+accuracy=0.4815
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [937 318]
+accuracy=0.191
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [980 275]
+accuracy=0.1705
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [566 689]
+accuracy=0.3605
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [609 646]
+accuracy=0.34
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [590 665]
+accuracy=0.5235
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [633 622]
+accuracy=0.503
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 219 1036]
+accuracy=0.693
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [262 993]
+accuracy=0.6725
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [530 725]
+accuracy=0.382
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [573 682]
+accuracy=0.3615
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 159 1096]
+accuracy=0.5515
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 202 1053]
+accuracy=0.531
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[  0 745]
+                  [   0 1255]
+accuracy=0.6275
+###################################
+if k_knn = 19
+max accuracy =0.9055
+best labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[745   0]
+                  [1255    0]
+accuracy=0.3725
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[736   9]
+                  [1044  211]
+accuracy=0.4735
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[738   7]
+                  [1105  150]
+accuracy=0.444
+___________________
+if labeling = ['A', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[729  16]
+                  [894 361]
+accuracy=0.545
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[713  32]
+                  [884 371]
+accuracy=0.542
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[704  41]
+                  [673 582]
+accuracy=0.643
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[706  39]
+                  [734 521]
+accuracy=0.6135
+___________________
+if labeling = ['A', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[697  48]
+                  [523 732]
+accuracy=0.7145
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[402 343]
+                  [1195   60]
+accuracy=0.231
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[393 352]
+                  [984 271]
+accuracy=0.332
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[395 350]
+                  [1045  210]
+accuracy=0.3025
+___________________
+if labeling = ['A', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[386 359]
+                  [834 421]
+accuracy=0.4035
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[370 375]
+                  [824 431]
+accuracy=0.4005
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[361 384]
+                  [613 642]
+accuracy=0.5015
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[363 382]
+                  [674 581]
+accuracy=0.472
+___________________
+if labeling = ['A', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[354 391]
+                  [463 792]
+accuracy=0.573
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[720  25]
+                  [848 407]
+accuracy=0.5635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[711  34]
+                  [637 618]
+accuracy=0.6645
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[713  32]
+                  [698 557]
+accuracy=0.635
+___________________
+if labeling = ['A', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[704  41]
+                  [487 768]
+accuracy=0.736
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[688  57]
+                  [477 778]
+accuracy=0.733
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[679  66]
+                  [266 989]
+accuracy=0.834
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[681  64]
+                  [327 928]
+accuracy=0.8045
+___________________
+if labeling = ['A', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[672  73]
+                  [ 116 1139]
+accuracy=0.9055
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[377 368]
+                  [788 467]
+accuracy=0.422
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[368 377]
+                  [577 678]
+accuracy=0.523
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[370 375]
+                  [638 617]
+accuracy=0.4935
+___________________
+if labeling = ['A', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[361 384]
+                  [427 828]
+accuracy=0.5945
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[345 400]
+                  [417 838]
+accuracy=0.5915
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[336 409]
+                  [ 206 1049]
+accuracy=0.6925
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[338 407]
+                  [267 988]
+accuracy=0.663
+___________________
+if labeling = ['A', 'B', 'B', 'B', 'B', 'B']
+confusion matrix =[329 416]
+                  [  56 1199]
+accuracy=0.764
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'A']
+confusion matrix =[416 329]
+                  [1199   56]
+accuracy=0.236
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'A', 'B']
+confusion matrix =[407 338]
+                  [988 267]
+accuracy=0.337
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'A']
+confusion matrix =[409 336]
+                  [1049  206]
+accuracy=0.3075
+___________________
+if labeling = ['B', 'A', 'A', 'A', 'B', 'B']
+confusion matrix =[400 345]
+                  [838 417]
+accuracy=0.4085
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'A']
+confusion matrix =[384 361]
+                  [828 427]
+accuracy=0.4055
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'A', 'B']
+confusion matrix =[375 370]
+                  [617 638]
+accuracy=0.5065
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'A']
+confusion matrix =[377 368]
+                  [678 577]
+accuracy=0.477
+___________________
+if labeling = ['B', 'A', 'A', 'B', 'B', 'B']
+confusion matrix =[368 377]
+                  [467 788]
+accuracy=0.578
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'A']
+confusion matrix =[ 73 672]
+                  [1139  116]
+accuracy=0.0945
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'A', 'B']
+confusion matrix =[ 64 681]
+                  [928 327]
+accuracy=0.1955
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'A']
+confusion matrix =[ 66 679]
+                  [989 266]
+accuracy=0.166
+___________________
+if labeling = ['B', 'A', 'B', 'A', 'B', 'B']
+confusion matrix =[ 57 688]
+                  [778 477]
+accuracy=0.267
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'A']
+confusion matrix =[ 41 704]
+                  [768 487]
+accuracy=0.264
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'A', 'B']
+confusion matrix =[ 32 713]
+                  [557 698]
+accuracy=0.365
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'A']
+confusion matrix =[ 34 711]
+                  [618 637]
+accuracy=0.3355
+___________________
+if labeling = ['B', 'A', 'B', 'B', 'B', 'B']
+confusion matrix =[ 25 720]
+                  [407 848]
+accuracy=0.4365
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'A']
+confusion matrix =[391 354]
+                  [792 463]
+accuracy=0.427
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'A', 'B']
+confusion matrix =[382 363]
+                  [581 674]
+accuracy=0.528
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'A']
+confusion matrix =[384 361]
+                  [642 613]
+accuracy=0.4985
+___________________
+if labeling = ['B', 'B', 'A', 'A', 'B', 'B']
+confusion matrix =[375 370]
+                  [431 824]
+accuracy=0.5995
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'A']
+confusion matrix =[359 386]
+                  [421 834]
+accuracy=0.5965
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'A', 'B']
+confusion matrix =[350 395]
+                  [ 210 1045]
+accuracy=0.6975
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'A']
+confusion matrix =[352 393]
+                  [271 984]
+accuracy=0.668
+___________________
+if labeling = ['B', 'B', 'A', 'B', 'B', 'B']
+confusion matrix =[343 402]
+                  [  60 1195]
+accuracy=0.769
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'A']
+confusion matrix =[ 48 697]
+                  [732 523]
+accuracy=0.2855
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'A', 'B']
+confusion matrix =[ 39 706]
+                  [521 734]
+accuracy=0.3865
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'A']
+confusion matrix =[ 41 704]
+                  [582 673]
+accuracy=0.357
+___________________
+if labeling = ['B', 'B', 'B', 'A', 'B', 'B']
+confusion matrix =[ 32 713]
+                  [371 884]
+accuracy=0.458
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'A']
+confusion matrix =[ 16 729]
+                  [361 894]
+accuracy=0.455
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'A', 'B']
+confusion matrix =[  7 738]
+                  [ 150 1105]
+accuracy=0.556
+___________________
+if labeling = ['B', 'B', 'B', 'B', 'B', 'A']
+confusion matrix =[  9 736]
+                  [ 211 1044]
+accuracy=0.5265
 ___________________
 if labeling = ['B', 'B', 'B', 'B', 'B', 'B']
 confusion matrix =[  0 745]
